@@ -143,9 +143,11 @@ html,body{
     padding: 0vw  10vw;
 }
 #motive p{
+    line-height: 1.7;
+    letter-spacing: -.15vw;
     position: relative;
     right: 0;
-    width: 80%;
+    width: 85%;
     text-align: right;
     font-size: 2vw;
 }
@@ -166,6 +168,6 @@ html,body{
    height: 50PX;
 }
 #threespan{
-    width: 120PX;
+    width: 80PX;
    height: 50PX;
 }
