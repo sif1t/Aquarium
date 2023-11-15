@@ -40,8 +40,9 @@ html,body{
 /* hero  */
 #hero{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 100px;
     margin-top: 15vw;
     padding: 0vw  10vw;
 }
@@ -73,7 +74,42 @@ html,body{
 
 }
 #aquarium{
-    width: 25vw;
+    position: relative;
+    width: 30vw;
     height: 36vw;
-    background-color: red;
+    background-color: rgb(245, 245, 245);
+}
+#aquarium #headings{
+    top: -22%;
+    left: -22%;
+    position: absolute;
+}
+#aquarium h1 {
+    letter-spacing: -.4vw;
+    line-height: 1;
+    font-size: 6vw;
+    font-weight: 400;
+}
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#circlev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    /* background-color: blueviolet; */
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+}
+#circlev i{
+    color: #5e5e5e;
+}
+
+#visit h3 {
+    font-weight: 100;
+    color: #5e5e5e;
 }
