@@ -156,18 +156,26 @@ html,body{
    margin: 0 13PX;
    margin-bottom: -12.5px;
    border-radius: 100PX;
-   background-color: RED;
 }
 
 #onespan{
     width: 120PX;
    height: 50PX;
+   background-image: url(./images/twospan.jpg);
+   background-size: cover;
+   background-position: 0% 60%;
 }
 #twospan{
-    width: 120PX;
+    width: 130PX;
    height: 50PX;
+   background-image: url(./images/onespan.jpg);
+   background-size: cover;
+   background-position: 0% 48%;
 }
 #threespan{
     width: 80PX;
    height: 50PX;
+   background-image: url(./images/threespan.jpg);
+   background-size: cover;
+   background-position: 0% 60%;
 }
