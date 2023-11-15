@@ -13,15 +13,61 @@ html,body{
 }
 /* navbar start */
 #nav{
+    position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 20px 10vw;
+    padding: 3vw 10vw;
 }
 #nleft{
     display: flex;
     gap: 20px;
 }
 #nav a {
+    font-size: 12px;
+    font-weight: 800;
     text-decoration: none;
     color: #000;
+}
+
+#nav #centertag{
+    font-size: 14px;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+/* hero  */
+#hero{
+    width: 100%;
+    height: 100px;
+    margin-top: 15vw;
+    padding: 0vw  10vw;
+}
+#vorobyeb{
+    width: 10vw;
+}
+#vorobyeb p{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 800;
+    opacity: .5;
+    margin: 10px 0;
+}
+
+#vorobyeb #vorobyedwrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+}
+#vorobyedwrapper img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 140%;
+    height: 140%;
+   object-fit: cover;
+
 }
