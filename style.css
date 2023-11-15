@@ -11,7 +11,7 @@ html,body{
 #main{
     width: 100%;
 }
-/* navbar start */
+/* home start */
 #nav{
     position: relative;
     display: flex;
@@ -37,7 +37,9 @@ html,body{
    transform: translate(-50%,-50%);
 }
 
-/* hero  */
+/* home end  */
+
+/* hero  start */
 #hero{
     display: flex;
     justify-content: space-between;
@@ -129,4 +131,41 @@ html,body{
 #visit h3 {
     font-weight: 100;
     color: #5e5e5e;
+}
+/* hero end  */
+
+/* motive start  */
+
+#motive{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw  10vw;
+}
+#motive p{
+    position: relative;
+    right: 0;
+    width: 80%;
+    text-align: right;
+    font-size: 2vw;
+}
+#motive span{
+   display: inline-block;
+   margin: 0 13PX;
+   margin-bottom: -12.5px;
+   border-radius: 100PX;
+   background-color: RED;
+}
+
+#onespan{
+    width: 120PX;
+   height: 50PX;
+}
+#twospan{
+    width: 120PX;
+   height: 50PX;
+}
+#threespan{
+    width: 120PX;
+   height: 50PX;
 }
