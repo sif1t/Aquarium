@@ -183,6 +183,22 @@ html,body{
 
 /* picture start  */
 #pictures{
-    padding: 0vw  10vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
     
+}
+#firstpic{
+    width: 17vw;
+}
+
+#firstpic #picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    background-color: red;
+}
+#firstpic p{
+    font-size: 14px;
+    margin-top: 10px;
 }
