@@ -236,3 +236,37 @@ html,body{
     text-align: right;
 }
 /* picture end  */
+
+/* banner start  */
+#banner{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+}
+#bimg{
+    width: 65%;
+    height: 60vh;
+    background-color: red;
+}
+#bimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#btext{
+    width: 35%;
+    padding: 0 3vw ;
+}
+#btext h1 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    line-height: 1;
+}
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+}
+/* banner end  */
