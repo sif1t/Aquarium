@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- shery.js link  -->
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <!-- locomotive link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <!-- link rimix-icon  -->
@@ -17,13 +19,13 @@
         <div id="home">
         <div id="nav">
             <div id="nleft">
-                <a href="#">Home</a>
-                <a href="#">Pricing</a>
-                <a href="#">Products</a>
+                <a class="nlink" href="#">Home</a>
+                <a class="nlink" href="#">Pricing</a>
+                <a class="nlink" href="#">Products</a>
             </div>
-            <a id="centertag" href="#">Sifat</a>
+            <a class="nlink" id="centertag" href="#">Sifat</a>
             <div id="nright">
-                <a href="#">Our Journey</a>
+                <a class="nlink" href="#">Our Journey</a>
             </div>
         </div>
         </div>
@@ -104,8 +106,23 @@
        
     </div>
 
+    <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+     <!-- gsap cdn  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- locomotive cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <!-- shery.js link  -->
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <!-- js link  -->
     <script src="main.js"></script>
 </body>
